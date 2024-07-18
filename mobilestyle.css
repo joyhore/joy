@@ -1,158 +1,109 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     body {
-      
-    background-color: rgb(1, 0, 20);
+        background-color: #350434;
     }
 
-    .content_section {
-        padding: 4px;
+    main {
+        margin: 4px;
+        background-color: rgba(255, 255, 255, 0.104);
+        border-radius: 10px;
+        padding: 12px;
     }
 
-    .logo_text {
-        font-size: 10px;
-    }
-
-    .navigation_text {
-        font-size: 10px;
-    }
-
-    .content_inner {
-        margin: 1px;
-    }
-
-    .intro_text_section_a {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 13px;
-    }
-
-
-    .name {
-        font-size: 25px;
-    }
-
-    .name_text_section {
-        margin-bottom: 20px;
-
-    }
-
-    .Description {
-        font-size: 18px;
-    }
-
-    .dp_photo {
-        width: 20dvh;
-        border-radius: 50%;
-    }
-
-    /* about */
-
-    .content_head_text {
-        font-size: 18px;
-    }
-
-    .content_body_text_section {
-        margin-left: 8px;
-    }
-
-    .content_body_text {
-        font-size: 13px;
-    }
-
-    .about_section {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    /* skill */
-
-    .skill_section {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .skill_body_text_section {
-        display: flex;
+    .page_head {
+        display: inline-block;
         justify-content: center;
     }
 
-    .skill_name {
-        margin: 4px;
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .skill_text {
-        font-size: 12px;
+    .dp_image {
+        height: 50vw;
     }
 
-    .skill_bar {
-        width: 70dvw;
+    .name_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .skill_level {
-        font-size: 8px;
-        padding-right: 8px;
+    .name,
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
     }
 
-    /* project */
-
-    .project_section {
-        margin-left: 12px;
-        margin-right: 12px;
+    .MyName_Name {
+        color: white;
+        font-size: 40px;
     }
 
-
-    .project_title {
-        font-size: 12px;
+    .description_text {
+        font-size: 18px;
     }
 
-    .project_description {
-        font-size: 8px;
+    .separator {
+        height: 4px;
     }
 
-
-    .more_project_inner {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    /* contact */
-
-    .contact_me_form_section {
-        margin: 4px;
-        padding: 10px;
-    }
-
-    .qustion_section {
+    .about_section,
+    .projects_section,
+    .contact_section,
+    .social_section,
+    .skill_section {
         margin: 8px;
+        padding: 18px;
     }
 
+    .content_heading_text,
+    .content_heading_text_b {
+        font-size: 18px;
+    }
+
+    .content_text,
+    .content_text_b {
+        font-size: 12px;
+    }
+
+    .skill_text_a,
+    .skill_text_b {
+        font-size: 12px;
+    }
 
     .qst {
-        font-size: 10px;
+        font-size: 12px;
     }
 
-
     .ans_field {
-        padding: 4px;
-        width: 60dvw;
+        width: 60vw;
+        height: 40px;
     }
 
     .ans_field::placeholder {
-        font-size: 8px;
-    }
-
-
-    .submit_button {
-        padding: 8px;
         font-size: 10px;
     }
 
-    .follow_section {
-        margin-left: 12%;
-        margin-right: 12%;
+    .submit_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    footer {
-        margin-bottom: 20px;
+    .submit_button {
+        width: 40vw;
+        margin: 4px;
+        font-size: 14px;
     }
+
+    .copy_text {
+        font-size: 8px;
+    }
+
 }
